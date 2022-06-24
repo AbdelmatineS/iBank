@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AdminDashboard">
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="480dp"
+        android:text="CHECK GMAIL"
+        app:icon="@android:drawable/ic_dialog_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:text="ADD USER"
+        app:icon="@android:drawable/ic_input_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_graphs"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="280dp"
+        android:text="SHOW GRAPHS"
+        app:icon="@android:drawable/ic_menu_sort_by_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_fetch"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="380dp"
+        android:text="SHOW USERS"
+        app:icon="?android:attr/actionModeFindDrawable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="123dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/admin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
